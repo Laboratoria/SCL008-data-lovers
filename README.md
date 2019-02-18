@@ -56,7 +56,7 @@ Estos son datos que te proponemos:
   comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
   En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
+  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](https://pokemongolive.com).
 * [Steam noticias](src/data/steam/steam.json):
   Lista noticias relacionadas a los videojuegos presentes en la
   plataforma de [Steam](https://store.steampowered.com/).
