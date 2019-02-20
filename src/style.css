@@ -1,0 +1,69 @@
+body {
+    background-image: url(fondo.png);
+}
+
+#root  {
+    margin-left: 51%;
+    margin-top: 6%;
+    color: #5e7e7f;
+    width: 387px;
+    height: 78px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+#input {
+    margin-left: 50%;
+    margin-top: 5%;
+    height: 100px;
+    width: 306px;
+    height: 75px;
+    line-height: normal;
+
+}
+
+.rounded-pill {
+  width: 306px;
+  height: 75px;
+  font-family: Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(131, 130, 130);
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  background-color: #ebe1e1;
+}
+
+#btn-start {
+
+    margin-left: 50%;
+    margin-top: 5%;
+    block-size: 1.4cm; 
+    width: 313px;
+    height: 78px;
+    border-radius: 42px;
+    background-color: #62d39e;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+  
+}
+
+img {
+    margin-left: 2cm;
+    margin-top: 5%;
+    width: 40%;
+    position: fixed;
+        
+}
+
