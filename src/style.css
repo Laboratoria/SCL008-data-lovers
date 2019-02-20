@@ -1,0 +1,46 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-18.jpg);
+}
+
+#sidenav {
+
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #ebebeb 50%, #b0b0b0 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f2f2f2), color-stop(50%, #ebebeb), color-stop(100%, #b0b0b0));
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #ebebeb 50%, #b0b0b0 100%);
+  background: -o-linear-gradient(top, #f2f2f2 0%, #ebebeb 50%, #b0b0b0 100%);
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #ebebeb 50%, #b0b0b0 100%);
+  background: linear-gradient(to bottom, #f2f2f2 0%, #ebebeb 50%, #b0b0b0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#b0b0b0', GradientType=0 );
+
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
