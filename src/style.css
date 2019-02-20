@@ -55,8 +55,23 @@ body {
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
+    position: fixed;
     letter-spacing: 2.5px;
   
+}
+
+footer {
+    width: 622px;
+  height: 261px;
+  font-family: Tahoma, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  position: fixed;
+  letter-spacing: 2.6px;
+  color: #5e7e7f;
 }
 
 img {
