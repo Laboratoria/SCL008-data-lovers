@@ -1,7 +1,9 @@
+/* screen 1 */
+
 body {
     background-image: url(fondo.png);
 }
-
+/* "Ingresa tu nombre de usuario y contraseña" */
 #root  {
     margin-left: 51%;
     margin-top: 6%;
@@ -15,6 +17,7 @@ body {
     letter-spacing: 2.5px;
 }
 
+/* Input usuario y contraseña */
 #input {
     margin-left: 50%;
     margin-top: 5%;
@@ -24,14 +27,14 @@ body {
     line-height: normal;
 
 }
-
+/* style inputs */
 .rounded-pill {
   width: 306px;
   height: 75px;
   font-family: Tahoma, sans-serif;
   font-size: 25px;
   font-weight: 600;
-  color: rgb(131, 130, 130);
+  color: #5e7e7f;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -39,6 +42,7 @@ body {
   background-color: #ebe1e1;
 }
 
+/* btn ingresar */
 #btn-start {
 
     margin-left: 50%;
@@ -60,6 +64,7 @@ body {
   
 }
 
+/* explicación del juego */
 footer {
     width: 622px;
   height: 261px;
@@ -74,7 +79,8 @@ footer {
   color: #5e7e7f;
 }
 
-img {
+/* logo */
+#logo {
     margin-left: 2cm;
     margin-top: 5%;
     width: 40%;
@@ -82,3 +88,58 @@ img {
         
 }
 
+/* screen 2 */
+
+/* Selecciona al zona que quieres */
+h3 {
+    position: absolute;
+width: 820px;
+height: 118px;
+left: 310px;
+top: 59px;
+
+font-family: Tahoma, sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #5E7E7F;
+}
+
+/*  Container necesitado para posicionar el butón */
+ .container {
+    position: relative;
+    width: 40%;
+    margin-top: 20%;
+  } 
+  
+  /* Hacer la img kanto responsive */
+  .container .col {
+    height: 5cm;
+    margin-top: 20%;
+    position: relative;
+    bottom: 2cm;
+  }
+  
+  /* style el button y moverlo para que esté dentro de la imagen */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: transparent;
+  }
