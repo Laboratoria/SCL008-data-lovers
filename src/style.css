@@ -1,7 +1,7 @@
 /* screen 1 */
 
 body {
-    background-image: url(fondo.png);
+    background-image: url(img/fondo.png);
 }
 /* "Ingresa tu nombre de usuario y contraseña" */
 #root  {
