@@ -1,20 +1,24 @@
 /* screen 1 */
 
 body {
-    background-image: url(img/fondo.png);
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 /* "Ingresa tu nombre de usuario y contraseña" */
 #root  {
-    margin-left: 51%;
-    margin-top: 6%;
+    margin-left: 60%;
+    margin-top: 3%;
     color: #5e7e7f;
     width: 387px;
     height: 78px;
     font-family: Tahoma, sans-serif;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
+
 }
 
 /* Input usuario y contraseña */
@@ -66,23 +70,25 @@ body {
 
 /* explicación del juego */
 footer {
-    width: 622px;
-  height: 261px;
+    width: 500px;
+  height: 200px;
   font-family: Tahoma, sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  position: fixed;
-  letter-spacing: 2.6px;
+  position:absolute;
+    top:65%;
+    left:10%;
+  letter-spacing: 3px;
   color: #5e7e7f;
 }
 
 /* logo */
 #logo {
     margin-left: 2cm;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 40%;
     position: fixed;
         
