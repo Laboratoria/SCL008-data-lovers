@@ -1,53 +1,63 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!--<link rel="stylesheet" href="style.css" />--> 
-
+  <title>Data Lovers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
-
-  <div id="firstscreen">
-    <h3>Encuentra tu Pokémon</h3>
-   <button on>Busca tu Pokémon</button>
-   <button>Datos Curiosos</button>  
-   <button>Instrucciones</button> 
-
-  </div>
-
-  <section>
-    <div class="row">
-       <div class="col-md-12">
-        <nav class="w4-sidebar w4-bar-block w4-white w4-collapse w4-top" style="z-index:3;width:400px; margin-left: 25px; margin-right:10px;" id="mySidebar">
-          
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">Example select</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>Ninguno</option>
-        <option>A-Z</option>
-        <option>Z-A</option>
-        <option>1-100</option>
-        <option>100-1</option>
-      </select>
+    <div id="firstscreen">
+      <h3>Encuentra tu Pokémon</h3>
+      <button>Busca tu Pokémon</button>
+      <button>Datos Curiosos</button>  
+      <button>Instrucciones</button> 
     </div>
-    </nav>
-      </div>
+    <section>
+      <div class="row">
+            <div class="col-md-12">
+                <nav class="w4-sidebar w4-bar-block w4-white w4-collapse w4-top" style="z-index:3;width:400px; margin-left: 25px; margin-right:10px;" id="mySidebar">
+                  <div class="form-group">
+                   <label for="exampleFormControlSelect1">Seleccione el tipo de Pokémon:</label>
+                   <select class="form-control" id="select-tipo">
+                      <option value= "none">Ninguno</option>
+                      <option value="Poison">Poison</option>
+                      <option value="Grass"> Grass </option>
+                      <option value="Fire"> Fire</option>
+                      <option value="Electric"> Electric</option>
+                      <option value="Water"> Water</option>
+                    </select>
+                    </div>
 
+                  <div class="form-group">
+                    <label for="order">Seleccione el tipo de Pokémon:</label>
+                    <select class="form-control" id="order">
+                       <option value="none">Ninguno</option>
+                       <option value="a-z">Alfabético Ascendente A-Z</option>
+                       <option value="z-a">Alfabético Descendente Z-A</option>
+                       <option value="1-150">Numérico Ascendente</option>
+                       <option value="150-1">Numérico Descendente</option>
+                    </select>
+                  </div>
+                </nav>
+               </div>
+              </div>
 
       <div class="row">
-        <div class="col-sm-4 col-md-12">
-        <div class="card-group">
+        <div class="col-md-12">
+          <div class="card-group">
            <div class="row" id="id1">
-               <!-- Clase Dispositivo Medida
+              
+  
+       
+          <!-- Clase Dispositivo Medida
               col-xs- móvil < 768 px
               col-sm- tablets >= 768 px
               col-md- desktop >= 992 px
               col-lg- Desktop más grande  >= 1200 px -->
+
           </div>
         </div>
       </div>
@@ -59,10 +69,11 @@
       
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
   </body>
+
 </html>
