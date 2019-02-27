@@ -67,4 +67,3 @@ window.data = {
     },
 }
 
-// De nuevo
